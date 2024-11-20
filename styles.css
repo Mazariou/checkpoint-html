@@ -1,0 +1,87 @@
+/* Appliquer la police 'Roboto' */
+body {
+    front-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#F4F4F4 ;
+}
+
+/* Style de la barre de navigation */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    front-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Style des sections*/
+section {
+    padding: 20px;
+    margin:20px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    color: #666;
+}
+
+/*Formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f39c12;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
